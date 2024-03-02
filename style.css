@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+    margin: 0:
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 200px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .converter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .converter input,
+  .converter select,
+  .converter button {
+    margin: 5px;
+    padding: 8px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .converter input {
+    flex-basis: 20%;
+  }
+  
+  .converter select {
+    flex-basis: 30%;
+  }
+  
+  .converter button {
+    flex-basis: calc(10% - 10px);
+    cursor: pointer;
+  }
+  
+  #result {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
